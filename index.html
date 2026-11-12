@@ -27,6 +27,7 @@
     </a>
     <nav>
       <ul id="menu">
+        <li><a href="#inside">Inside</a></li>
         <li><a href="#shop">Aisles</a></li>
         <li><a href="#specials">Specials</a></li>
         <li><a href="#visit">Visit</a></li>
@@ -53,27 +54,39 @@
           <a class="btn btn-ghost" href="#visit">Find the store</a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <svg class="sun" viewBox="0 0 360 360" width="360" height="360">
-          <circle cx="180" cy="180" r="78" fill="#e6c14a"/>
-          <circle cx="180" cy="180" r="62" fill="#f3d86a"/>
-          <g fill="#1f5a32" opacity="0.18">
-            <circle cx="180" cy="40" r="10"/><circle cx="180" cy="320" r="10"/>
-            <circle cx="40" cy="180" r="10"/><circle cx="320" cy="180" r="10"/>
-            <circle cx="80" cy="80" r="8"/><circle cx="280" cy="80" r="8"/>
-            <circle cx="80" cy="280" r="8"/><circle cx="280" cy="280" r="8"/>
-          </g>
-          <text x="180" y="198" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#1f5a32">L</text>
-        </svg>
-        <div class="coin-card c1">
-          <b>Palm oil</b>
-          <span>Example $8.99</span>
-        </div>
-        <div class="coin-card c2">
-          <b>Garri</b>
-          <span>Example $6.49</span>
-        </div>
+      <div class="hero-photo">
+            <picture>
+              <source type="image/webp" srcset="img/photo-3-800.webp 800w, img/photo-3-934.webp 934w" sizes="(max-width: 900px) calc(100vw - 40px), min(480px, 42vw)">
+              <img src="img/photo-3-800.jpg" srcset="img/photo-3-800.jpg 800w, img/photo-3-934.jpg 934w" sizes="(max-width: 900px) calc(100vw - 40px), min(480px, 42vw)" width="934" height="2000" alt="Grocery shelves at Lucky’s Favor stocked with canned goods, Blue Band, oils, and bagged flours" decoding="async">
+            </picture>
+          </div>
+    </div>
+  </section>
+
+  <section id="inside" class="inside">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">From the shop</p>
+        <h2>Inside the store</h2>
       </div>
+      <ul class="gallery">
+        <li>
+          <figure>
+            <picture>
+              <source type="image/webp" srcset="img/photo-1-800.webp 800w, img/photo-1-934.webp 934w" sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 900px) calc(50vw - 32px), calc((min(1120px, 100vw - 40px) - 28px) / 3)">
+              <img src="img/photo-1-800.jpg" srcset="img/photo-1-800.jpg 800w, img/photo-1-934.jpg 934w" sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 900px) calc(50vw - 32px), calc((min(1120px, 100vw - 40px) - 28px) / 3)" width="934" height="2000" alt="Bags of parboiled white rice, including Peppy’s Sunwave and Riceland, stacked at Lucky’s Favor African Market" loading="lazy" decoding="async">
+            </picture>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <picture>
+              <source type="image/webp" srcset="img/photo-2-800.webp 800w, img/photo-2-934.webp 934w" sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 900px) calc(50vw - 32px), calc((min(1120px, 100vw - 40px) - 28px) / 3)">
+              <img src="img/photo-2-800.jpg" srcset="img/photo-2-800.jpg 800w, img/photo-2-934.jpg 934w" sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 900px) calc(50vw - 32px), calc((min(1120px, 100vw - 40px) - 28px) / 3)" width="934" height="2000" alt="A jar of original Chin-Chin Snackers on a wire shelf at the market" loading="lazy" decoding="async">
+            </picture>
+          </figure>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -218,6 +231,7 @@
     <div>
       <h3>On this page</h3>
       <ul>
+        <li><a href="#inside">Inside the store</a></li>
         <li><a href="#shop">Aisles</a></li>
         <li><a href="#specials">Specials</a></li>
         <li><a href="#visit">Visit</a></li>
